@@ -36,7 +36,7 @@ Developed By:Suji.G
 Register Number:212222230152
 i)Image Translation
 #plotting of an image :
-image = cv.imread("gibli.webp")
+image = cv.imread("download.jpeg")
 image = cv.cvtColor(image, cv.COLOR_BGR2RGB)
 
 plt.axis("off")
