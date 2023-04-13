@@ -55,13 +55,14 @@ plt.show()
 
 
 ii) Image Scaling
+
 rows,cols,dim = image.shape
-
-M_scale = np.float32([[2,0,0], [0,1.6,0],[0,0,1]])
-scale_image= cv.warpPerspective(image, M_scale, (cols, rows))
-
-plt.axis("off")
-plt.imshow(scale_image)
+M=np.float32([[1.5,0,0],
+             [0,2,0],
+             [0,0,1]])
+scaled_img=cv2.warpPerspective(input_img,M,(cols,rows))
+plt.axis('off')
+plt.imshow(scaled_img)
 plt.show()
 
 
@@ -132,8 +133,7 @@ plt.show()
 ![Screenshot from 2023-04-06 14-37-52](https://user-images.githubusercontent.com/119559822/230333282-b23e0ccc-7ec7-42d3-9f12-e671b861da0c.png)
 
 ### ii) Image Scaling
-![Screenshot from 2023-04-06 14-38-08](https://user-images.githubusercontent.com/119559822/231699541-e1203f17-d31a-47ec-b16a-fc7a1f96595b.png)
-
+![Screenshot from 2023-04-13 13-56-08](https://user-images.githubusercontent.com/119559822/231700747-49e35a2b-1da9-4a21-b644-b65ea7e412cc.png)
 
 ### iii)Image shearing
 ![Screenshot from 2023-04-06 14-38-23](https://user-images.githubusercontent.com/119559822/230817740-30acd2f2-bb9d-43fb-906c-fe852f2d1a50.png)
