@@ -132,6 +132,7 @@ plt.show()
 ![Screenshot from 2023-04-06 14-37-52](https://user-images.githubusercontent.com/119559822/230333282-b23e0ccc-7ec7-42d3-9f12-e671b861da0c.png)
 
 ### ii) Image Scaling
+![Screenshot from 2023-04-06 14-38-08](https://user-images.githubusercontent.com/119559822/231699541-e1203f17-d31a-47ec-b16a-fc7a1f96595b.png)
 
 
 ### iii)Image shearing
